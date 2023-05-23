@@ -1,0 +1,78 @@
+img {
+  border-radius: 150px;
+  width: 130px;
+  height: 130px;
+}
+
+.principal {
+  display: flex;
+}
+
+.informacion {
+  flex: 1;
+  padding: 10px;
+  background-color: rgb(39, 51, 83);
+}
+
+.experiencia {
+  flex: 1;
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(198, 239, 249);
+  display: flex;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* columna1 */
+
+.informacion h2 {
+  color: rgb(255, 255, 255);
+  font-size: 1.3rem;
+}
+.informacion h3 {
+  font-size: 1rem;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* experiencia */
+
+.experiencia h2 {
+  color: rgb(248, 248, 248);
+  padding: 10px;
+  font-size: 1.3rem;
+  background-color: rgb(39, 51, 83);
+  width: 250px;
+  border-radius: 100px;
+  text-align: center;
+}
+.experiencia h1 {
+  margin-left: 80px;
+  font-size: 2rem;
+}
+
+table {
+  border-color: transparent;
+}
+
+td {
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  border: solid;
+  border-radius: 30px;
+}
+
+ul {
+  font-weight: bold;
+  font-size: 1rem;
+}
